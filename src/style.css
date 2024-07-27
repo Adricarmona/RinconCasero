@@ -1,0 +1,62 @@
+/*
+ *  CSS de la pagina principal
+ *  @Autor: gla2s, Adrian Carmona
+ */
+
+/* fuentes */
+@font-face {
+    font-family: "Heebo";
+    src: url("./assets/font/Heebo-Medium.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+ /* el body completo */
+body {
+    background-image: url("./assets/img/fondo.png"); /* el fondo */
+    font-family: "Heebo"; 
+}
+
+#RinconCaseroIcono { /* icono de jose fijo a la izquierda */
+    position: fixed;
+    margin-left: 80px;
+}
+
+#Tfriconcasero { /* icono de jose fijo a la izquierda */
+    position: fixed;
+    margin-left: 105px;
+    margin-top: 360px;
+}
+
+#medio {
+    width: 50%; /* anchura */
+    margin: 5vh auto; /* altura y centrado */
+    background-color: white; /* color blanco fondo */
+    border-radius: 1vh; /* el borde de el cuadrado central */
+    box-shadow: 0 0 5px black; /* la sombra de la pagina web */
+}
+
+.central {
+    margin: 0 3vh; /* el espaciado general */
+}
+
+/* barra de navegacion */
+nav {
+    display: flex;
+    align-items: center; /* centramos los objetos */
+    justify-content: space-between; /* espacio entre las categorias de iconos y navegacion */
+    padding-top: 1vh; /*el pading de arriba*/
+}
+
+#iconos { /* los iconos de la barra de navegacion*/
+    display: flex;
+    gap: 10px; /* el espeaciado de los iconos*/
+}
+
+#navegacion {
+    display: flex;
+    align-items: center; /* centramos los objetos */
+    gap: 20px; /* ponemos el gap entre las opciones */
+}
+
+/*  Los pollos  */
