@@ -66,18 +66,28 @@ nav {
     margin: 2vh 3vh;
 }
 
+/*  LAS IMAGENES     */
+.imagenes {
+    width: 30%;
+    border-radius: 50px;
+}
 
 /*  Los pollos  */
 #polloLaterales {
+    width: 50%;
     margin-left: 10vh;
     display: inline-block;
 }
 
-#pollos {
-    margin-left: 15vh;
-    width: 30vh;
-}
+/*  Raciones    */
 
+
+/*   NOSOTROS   */
+#nosotros {
+    width: 50%;
+    margin-left: 10vh;
+    display: inline-block;
+}
 
 
 /* beta */
