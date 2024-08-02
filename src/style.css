@@ -114,5 +114,44 @@ nav {
 
 /*      RESPONSIVE      */
 @media (max-width:1480px) {
+    #RinconCaseroIcono { /* icono de jose fijo a la izquierda */
+        margin-left: 0%;
+    }
     
+    #Tfriconcasero { /* icono de jose fijo a la izquierda */
+        margin-left: 2%;
+    }
+}
+
+@media (max-width:1190px) {
+    #RinconCaseroIcono { /* icono de jose fijo a la izquierda */
+        width: 14vh;
+    }
+    
+    #Tfriconcasero { /* icono de jose fijo a la izquierda */
+        width: 14vh;
+        margin-left: 0%;
+        margin-top: 160px;
+    }
+
+    #medio {
+        width: 70%; /* anchura */
+        margin: 5vh auto; /* altura y centrado */
+    }
+}
+
+@media (max-width:900px) {
+    #RinconCaseroIcono { /* icono de jose fijo a la izquierda */
+        width: 0vh;
+    }
+    
+    #Tfriconcasero { /* icono de jose fijo a la izquierda */
+        width: 0vh;
+
+    }
+
+    #medio {
+        width: 100%; /* anchura */
+        margin: 5vh auto; /* altura y centrado */
+    }
 }
