@@ -75,15 +75,22 @@ nav {
     margin-bottom: 3vh;
 }
 
-/*  Los pollos  */
-#polloLaterales {
-    width: 50%;
-    margin-left: 10vh;
-    display: inline-block;
+/*  Los pollos y las raciones  */
+#pollo-raciones-container {
+    display: flex;
+    align-items: center; /* Centra los objetos */
+    justify-content: center; /* centra el texto en el medio */
+    gap: 10vh; /* espacio entre la imagen y el texto */
+    margin:3vh;
 }
 
-/*  Raciones    */
-
+#pollo-raciones {
+    width: 50%;
+    margin-left: 0; /* quita el margin de la izquierda para centrarlo bien */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
 /*   NOSOTROS   */
 #nosotros-container {
@@ -102,6 +109,14 @@ nav {
     align-items: flex-start;
 }
 
+/* github y linkedin */
+#github {
+    width: 5vh;
+}
+
+#linkedin {
+    width: 5vh;
+}
 
 /* beta */
 #beta {
@@ -110,7 +125,6 @@ nav {
     margin-top: -60px;
     margin-left: -20px;
 }
-
 
 /*      RESPONSIVE      */
 @media (max-width:1480px) {
@@ -147,7 +161,6 @@ nav {
     
     #Tfriconcasero { /* icono de jose fijo a la izquierda */
         width: 0vh;
-
     }
 
     #medio {
