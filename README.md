@@ -1,2 +1,2 @@
 # RinconCasero
- Pagina web de la tienda de Jose con angular
+ Pagina web de la tienda de Jose con html y css
