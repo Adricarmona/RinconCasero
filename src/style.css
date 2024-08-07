@@ -203,5 +203,6 @@ nav {
     #pollo-raciones, #nosotros {
         width: 100%; /* Anchura completa para centrado */
         text-align: center; /* Alinear texto al centro */
+        align-items: center; /* alinea todo */
     }
 }
