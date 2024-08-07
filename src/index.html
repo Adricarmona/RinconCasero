@@ -12,12 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img id="beta" src="./assets/img/googlechromebeta_103880.webp" alt="google beta">
     <img id="RinconCaseroIcono" src="./assets/img/riconoRinconCaseroIcono.png" alt="rincón casero icono">
     <a href="tel:+34 622 08 70 50"><img id="Tfriconcasero" src="./assets/img/numeroTf.png" alt="número de teléfono rincón casero"></a>
     <div id="medio">
         <!--    LA BARRA DE NAVEGACIÓN DE ARRIBA    -->
         <nav class="central">
+            <img id="iconoRincon" src="./assets/img/rinconcaseroLetras.png" alt="Rincón Casero">
             <div id="iconos">
                 <a href="https://www.instagram.com/_rinconcasero__"><img src="./assets/img/instagram.png" alt="instagram"></a>
                 <a href="https://www.facebook.com/p/Rinc%C3%B3n-Casero-61557275278000"><img src="./assets/img/facebook.png" alt="facebook"></a>
@@ -25,11 +25,11 @@
             </div>
             <div id="navegacion">
                 <img class="linea vertical" src="./assets/img/Line.png" alt="línea vertical">
-                <h3>🍗 POLLOS</h3>
+                <a id="a" href="#pollo"><h3>🍗 POLLOS</h3></a>
                 <img class="linea vertical" src="./assets/img/Line.png" alt="línea vertical">
-                <h3>🍽️ MENÚS</h3>
+                <a id="a" href="#racion"><h3>🍽️ MENÚS</h3></a>
                 <img class="linea vertical" src="./assets/img/Line.png" alt="línea vertical">
-                <h3>👨‍🍳 NOSOTROS</h3>
+                <a id="a" href="#nosotros"><h3>👨‍🍳 NOSOTROS</h3></a>
             </div>
         </nav>
 
@@ -37,7 +37,7 @@
         <hr class="central" id="linea">
         <div id="pollo-raciones-container">
             <div id="pollo-raciones">
-                <h2>🍗 POLLOS ASADOS 🍗</h2>
+                <h2 id="pollo">🍗 POLLOS ASADOS 🍗</h2>
                 <h2>- Menú 13€ -</h2>
                 <ul>
                     <li>Pollo</li>
@@ -53,7 +53,7 @@
         <hr class="central" id="linea">
         <div id="pollo-raciones-container">
             <div id="pollo-raciones">
-                <h2>🍽️ RACIÓN 🍽️</h2>
+                <h2 id="racion">🍽️ RACIÓN 🍽️</h2>
                 <p>Variación de platos diario, mirar redes sociales para comprobar los platos del día</p>
                 <h2>- Ración 8€ - </h2>
                 <ul>
@@ -70,10 +70,11 @@
         <hr class="central" id="linea">
         <div id="nosotros-container">
             <div id="nosotros">
-                <h2>👨‍🍳 NOSOTROS 👨‍🍳</h2>
-                <p>Somos un local de comida casera familiar y asador de pollo en la estación de Cártama en C/Teruel 2.</p>
+                <h2 id="nosotros">👨‍🍳 NOSOTROS 👨‍🍳</h2>
+                <p>Somos un local de comida casera familiar y asador de pollo en la Estación de Cártama en C/Teruel 2.</p>
             </div>
-            <img class="imagenes" src="./assets/img/local.png" alt="local rincón casero">
+            <!-- <img class="imagenes" src="./assets/img/local.png" alt="local rincón casero"> -->
+            <iframe class="imagenes" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d983.5773686349866!2d-4.60962037368568!3d36.73679913900614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72ef1eb3a93d9f%3A0x4af523db7c0d0426!2sRinc%C3%B3n%20Casero!5e1!3m2!1ses!2ses!4v1722883470063!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>    
         
     </div>

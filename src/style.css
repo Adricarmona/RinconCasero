@@ -40,7 +40,17 @@ body {
     margin: 0 3vh; /* el espaciado general */
 }
 
+#a {
+    text-decoration: none;
+    color: black;
+}
+
 /* barra de navegacion */
+#iconoRincon {
+    display: none;
+    width: 15vh;
+}
+
 nav {
     display: flex;
     align-items: center; /* centramos los objetos */
@@ -68,8 +78,6 @@ nav {
 
 /*  LAS IMAGENES     */
 .imagenes {
-    width: 30%;
-    border-radius: 50px;
     width: 30%;
     border-radius: 50px;
     margin-bottom: 3vh;
@@ -155,16 +163,45 @@ nav {
 }
 
 @media (max-width:900px) {
+    #iconoRincon {
+        display: block;
+    }
+
     #RinconCaseroIcono { /* icono de jose fijo a la izquierda */
-        width: 0vh;
+        display: none;
     }
     
     #Tfriconcasero { /* icono de jose fijo a la izquierda */
-        width: 0vh;
+        display: none;
     }
 
     #medio {
         width: 100%; /* anchura */
         margin: 5vh auto; /* altura y centrado */
+    }
+
+    #navegacion {
+        display: none;
+    }
+
+    .imagenes {
+        width: 80%;
+    }
+
+    #pollo-raciones-container {
+        display: flex;
+        flex-direction: column; /* Cambiar a disposición de columna */
+        align-items: center; /* Centrar elementos */
+    }
+
+    #nosotros-container {
+        display: flex;
+        flex-direction: column; /* Cambiar a disposición de columna */
+        align-items: center; /* Centrar elementos */
+    }
+
+    #pollo-raciones, #nosotros {
+        width: 100%; /* Anchura completa para centrado */
+        text-align: center; /* Alinear texto al centro */
     }
 }
